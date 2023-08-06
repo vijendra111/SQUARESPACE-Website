@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: rgb(255, 255, 255);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+img{
+    height: 60px;
+}
+#nav-part2{
+    display: flex;
+    gap: 55px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#nav-part2 h3{
+    font-weight: 700;
+    cursor: pointer;
+}
+#nav-part2 h3:hover{
+    color: rgb(255, 0, 0);
+}
+#nav-part3{
+    display: flex;
+    gap: 55px;
+    text-transform: uppercase;
+    align-items: center;
+}
+#nav-part3 h4{
+    font-weight: 700;
+    cursor: pointer;
+}
+#nav-part3 h4:hover{
+    color: burlywood;
+}
+#nav button{
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    /* border-radius: 5px; */
+}
+#main h1{
+    position: relative;
+    font-size: 130px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    z-index: 99;
+}
+#main h1 span{
+    background-color: red;
+    font-size: 25px;
+    padding: 30px 50px;
+    border-radius: 50px;
+    margin: 0px 50px;
+}
+#main h1:nth-child(2){
+    color: red;
+    margin-top: 60px;
+}
+#main #left-img{
+    position: absolute;
+    height: 190px;
+    width: 150px;
+    top: 23%;
+    left: 8%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#main #right-img{
+    position: absolute;
+    height: 230px;
+    width: 170px;
+    bottom: 10%;
+    right : 11%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+#main #left-btm{
+    position: absolute;
+    height: 185px;
+    width: 280px;
+    bottom: 3%;
+    left : 23%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#main #top-right{
+    position: absolute;
+    height: 160px;
+    width: 280px;
+    top: 15%;
+    right : 23%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+#main>h5{
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  font-size: 20px;
+}
+#main>#icon{
+    position: absolute;
+    font-size: 28px;
+    left: 5%;
+    bottom: 5%;
+}
+
